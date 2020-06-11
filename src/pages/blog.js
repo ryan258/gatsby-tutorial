@@ -1,10 +1,12 @@
 import React from "react"
+// import { Link } from "gatsby"
+import Layout from "../components/layout"
 
 const blog = () => {
   return (
-    <div>
-      <h1>our blog page</h1>
-    </div>
+    <Layout>
+      <h1>Hello Blog!</h1>
+    </Layout>
   )
 }
 
